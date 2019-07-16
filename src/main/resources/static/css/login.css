@@ -1,0 +1,97 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+.Login_outside{
+	width:100%;
+	height:970px;
+	background:url('../img/back.jpg');
+}
+.Login_outside header{
+	width:100%;
+	height:60px;
+	line-height: 60px;
+	background:#000;
+}
+.Login_outside section{
+	width:300px;
+	height:400px;
+	background:#fff;
+	position: absolute;
+	top:30%;
+	right: 15%;
+}
+.mainpart #ccic{
+	width:100%;
+	height:65px;
+}
+.mainpart #ccic img{
+	width:50px;
+	height:40px;
+	float: left;
+	margin-top: 10px;
+	margin-left:20px;
+}
+.mainpart #ccic h3{
+	float: left;
+	height:65px;
+	line-height: 65px;
+	margin-left: 45px;
+}
+.mainpart #loginPart{
+	width:280px;
+	height:280px;
+	margin:0 auto;
+	
+}
+.mainpart #loginPart .username{
+	position: absolute;
+	top:23%;
+	left:45%;
+}
+.mainpart #loginPart #username{
+	display: block;
+	width:200px;
+	height:30px;
+	position: absolute;
+	top:30%;
+	left:17%;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding-left: 3px;
+}
+.mainpart #loginPart .password{
+	position: absolute;
+	top:41%;
+	left:45%;
+}
+.mainpart #loginPart #password{
+	display: block;
+	width:200px;
+	height:30px;
+	position: absolute;
+	top:48%;
+	left:17%;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding-left: 3px;
+
+}
+.mainpart #loginPart #loginSub{
+	display: block;
+	width:120px;
+	height:30px;
+	position: absolute;
+	top:65%;
+	left:30%;
+	background:#d00;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+}
+
+.circleBorder{
+	border-radius: 50%;
+
+}
+ 

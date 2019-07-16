@@ -1,0 +1,115 @@
+2019-07-11 10:09:22.293 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Starting PayrollApplication on DESKTOP-GV5EMI5 with PID 85296 (E:\JavaProject\springdemo\target\classes started by jtzhtc20190702-01 in E:\JavaProject\springdemo)
+2019-07-11 10:09:22.296 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: No active profile set, falling back to default profiles: default
+2019-07-11 10:09:22.329 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-11 10:09:22.330 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-11 10:09:23.316 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8081 (http)
+2019-07-11 10:09:23.330 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:09:23.338 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2019-07-11 10:09:23.338 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-11 10:09:23.458 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2019-07-11 10:09:23.458 [restartedMain] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 1128 ms
+2019-07-11 10:09:23.520 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 本地数据源1.......192.168.1.250  123456
+2019-07-11 10:09:23.538 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 远程数据源2.......118.122.120.166  a123456A!
+2019-07-11 10:09:23.693 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ac7c8af, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a06d7ca, org.springframework.security.web.header.HeaderWriterFilter@7e09cd98, org.springframework.security.web.authentication.logout.LogoutFilter@75b26da8, com.ccic.payroll.authentication.AlertAuthenticationFilter@737cc013, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6263719a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2be97e2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35b94553, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ff03dc6, org.springframework.security.web.session.SessionManagementFilter@7b6a6453, org.springframework.security.web.access.ExceptionTranslationFilter@34024316, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17215fe1]
+2019-07-11 10:09:23.790 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-11 10:09:23.880 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping: Adding welcome page template: index
+2019-07-11 10:09:23.956 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2019-07-11 10:09:24.001 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2019-07-11 10:09:24.031 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:09:24.051 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-11 10:09:24.054 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Started PayrollApplication in 2.073 seconds (JVM running for 3.345)
+2019-07-11 10:09:48.358 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-11 10:09:48.358 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2019-07-11 10:09:48.366 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 8 ms
+2019-07-11 10:17:48.761 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Starting PayrollApplication on DESKTOP-GV5EMI5 with PID 98348 (E:\JavaProject\springdemo\target\classes started by jtzhtc20190702-01 in E:\JavaProject\springdemo)
+2019-07-11 10:17:48.764 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: No active profile set, falling back to default profiles: default
+2019-07-11 10:17:48.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-11 10:17:48.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-11 10:17:49.765 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8081 (http)
+2019-07-11 10:17:49.774 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:17:49.778 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2019-07-11 10:17:49.778 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-11 10:17:49.917 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2019-07-11 10:17:49.917 [restartedMain] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 1099 ms
+2019-07-11 10:17:49.963 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 本地数据源1.......192.168.1.250  123456
+2019-07-11 10:17:49.977 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 远程数据源2.......118.122.120.166  a123456A!
+2019-07-11 10:17:50.106 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57671deb, org.springframework.security.web.context.SecurityContextPersistenceFilter@5621dfb5, org.springframework.security.web.header.HeaderWriterFilter@22a3aa5e, org.springframework.security.web.authentication.logout.LogoutFilter@654fb469, com.ccic.payroll.authentication.AlertAuthenticationFilter@61883354, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@17889730, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@694ad5f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7019ea66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3de59155, org.springframework.security.web.session.SessionManagementFilter@7a2b8cd, org.springframework.security.web.access.ExceptionTranslationFilter@5d21dff2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6293996f]
+2019-07-11 10:17:50.189 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-11 10:17:50.265 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping: Adding welcome page template: index
+2019-07-11 10:17:50.344 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2019-07-11 10:17:50.377 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2019-07-11 10:17:50.401 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:17:50.417 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-11 10:17:50.420 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Started PayrollApplication in 1.99 seconds (JVM running for 3.15)
+2019-07-11 10:17:52.263 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-11 10:17:52.263 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2019-07-11 10:17:52.267 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 4 ms
+2019-07-11 10:21:16.416 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Starting PayrollApplication on DESKTOP-GV5EMI5 with PID 101256 (E:\JavaProject\springdemo\target\classes started by jtzhtc20190702-01 in E:\JavaProject\springdemo)
+2019-07-11 10:21:16.419 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: No active profile set, falling back to default profiles: default
+2019-07-11 10:21:16.473 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-11 10:21:16.473 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-11 10:21:17.349 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8081 (http)
+2019-07-11 10:21:17.359 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:21:17.364 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2019-07-11 10:21:17.365 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-11 10:21:17.452 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2019-07-11 10:21:17.452 [restartedMain] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 979 ms
+2019-07-11 10:21:17.499 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 本地数据源1.......192.168.1.250  123456
+2019-07-11 10:21:17.510 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 远程数据源2.......118.122.120.166  a123456A!
+2019-07-11 10:21:17.627 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@626b6a63, org.springframework.security.web.context.SecurityContextPersistenceFilter@ee34bc2, org.springframework.security.web.header.HeaderWriterFilter@7dfdcf7e, org.springframework.security.web.authentication.logout.LogoutFilter@485516da, com.ccic.payroll.authentication.AlertAuthenticationFilter@4dc68f3b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@204f9afa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f75d52f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7af2b68c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@446f14dc, org.springframework.security.web.session.SessionManagementFilter@19aaa27, org.springframework.security.web.access.ExceptionTranslationFilter@1aa39d66, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27219334]
+2019-07-11 10:21:17.707 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-11 10:21:17.795 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping: Adding welcome page template: index
+2019-07-11 10:21:17.866 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2019-07-11 10:21:17.900 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2019-07-11 10:21:17.920 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:21:17.934 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-11 10:21:17.936 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Started PayrollApplication in 1.822 seconds (JVM running for 2.963)
+2019-07-11 10:21:30.721 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-11 10:21:30.721 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2019-07-11 10:21:30.724 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 3 ms
+2019-07-11 10:23:04.163 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Starting PayrollApplication on DESKTOP-GV5EMI5 with PID 97644 (E:\JavaProject\springdemo\target\classes started by jtzhtc20190702-01 in E:\JavaProject\springdemo)
+2019-07-11 10:23:04.166 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: No active profile set, falling back to default profiles: default
+2019-07-11 10:23:04.215 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-11 10:23:04.215 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-11 10:23:05.137 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8081 (http)
+2019-07-11 10:23:05.148 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:23:05.157 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2019-07-11 10:23:05.157 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-11 10:23:05.255 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2019-07-11 10:23:05.255 [restartedMain] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 1040 ms
+2019-07-11 10:23:05.297 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 本地数据源1.......192.168.1.250  123456
+2019-07-11 10:23:05.308 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 远程数据源2.......118.122.120.166  a123456A!
+2019-07-11 10:23:05.418 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30da851d, org.springframework.security.web.context.SecurityContextPersistenceFilter@430559e2, org.springframework.security.web.header.HeaderWriterFilter@ade66be, org.springframework.security.web.authentication.logout.LogoutFilter@49975e20, com.ccic.payroll.authentication.AlertAuthenticationFilter@466b8880, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@146a729b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11bee37b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@184558f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69995df2, org.springframework.security.web.session.SessionManagementFilter@3c61eac3, org.springframework.security.web.access.ExceptionTranslationFilter@7c271629, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@286993c1]
+2019-07-11 10:23:05.495 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-11 10:23:05.570 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping: Adding welcome page template: index
+2019-07-11 10:23:05.592 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2019-07-11 10:23:05.625 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2019-07-11 10:23:05.646 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:23:05.744 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-11 10:23:05.746 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Started PayrollApplication in 1.903 seconds (JVM running for 3.001)
+2019-07-11 10:23:34.605 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-11 10:23:34.606 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2019-07-11 10:23:34.609 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 3 ms
+2019-07-11 10:25:27.573 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Starting PayrollApplication on DESKTOP-GV5EMI5 with PID 86824 (E:\JavaProject\springdemo\target\classes started by jtzhtc20190702-01 in E:\JavaProject\springdemo)
+2019-07-11 10:25:27.577 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: No active profile set, falling back to default profiles: default
+2019-07-11 10:25:27.631 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-11 10:25:27.631 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-11 10:25:28.538 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8081 (http)
+2019-07-11 10:25:28.546 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:25:28.550 [restartedMain] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2019-07-11 10:25:28.550 [restartedMain] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-11 10:25:28.642 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2019-07-11 10:25:28.642 [restartedMain] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 1011 ms
+2019-07-11 10:25:28.688 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 本地数据源1.......192.168.1.250  123456
+2019-07-11 10:25:28.699 [restartedMain] INFO  com.ccic.payroll.dbutil.MySQLDataSource: 远程数据源2.......118.122.120.166  a123456A!
+2019-07-11 10:25:28.822 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77bcf51b, org.springframework.security.web.context.SecurityContextPersistenceFilter@79f62ab, org.springframework.security.web.header.HeaderWriterFilter@58f33dd4, org.springframework.security.web.authentication.logout.LogoutFilter@35c6b2e3, com.ccic.payroll.authentication.AlertAuthenticationFilter@4aa9d2e9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@759d6355, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6704f593, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@105f76a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46e509ba, org.springframework.security.web.session.SessionManagementFilter@55105a98, org.springframework.security.web.access.ExceptionTranslationFilter@987cb5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f44d521]
+2019-07-11 10:25:28.899 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-11 10:25:28.976 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping: Adding welcome page template: index
+2019-07-11 10:25:28.999 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2019-07-11 10:25:29.032 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2019-07-11 10:25:29.058 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2019-07-11 10:25:29.117 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-11 10:25:29.120 [restartedMain] INFO  com.ccic.payroll.PayrollApplication: Started PayrollApplication in 1.848 seconds (JVM running for 2.989)
+2019-07-11 10:27:11.633 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-11 10:27:11.633 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2019-07-11 10:27:11.639 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet: Completed initialization in 6 ms
